@@ -31,7 +31,7 @@ npm install
 ### 4. Configure Environment Variables
 Create a .env file in the root of the project and configure the following environment variables:
 ```bash
-`# RabbitMQ connection string
+# RabbitMQ connection string
 RABBITMQ_CONNECTION_STRING=amqp://newuser:newpassword@localhost:5672/
 
 # Port for the management-service to listen on
@@ -43,7 +43,7 @@ PORT=4000
 To start the management-service locally, use the following command:
 
 ```bash
-`node index.js`
+node index.js
 ```
 The service will run on `http://localhost:4000` and will automatically receive and log orders from RabbitMQ.
 
