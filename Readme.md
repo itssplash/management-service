@@ -33,10 +33,8 @@ Create a .env file in the root of the project and configure the following enviro
 ```bash
 `# RabbitMQ connection string
 RABBITMQ_CONNECTION_STRING=amqp://newuser:newpassword@localhost:5672/
-```
 
 # Port for the management-service to listen on
-```bash
 PORT=4000
 ```
 
