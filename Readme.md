@@ -71,8 +71,9 @@ In the Azure Web App configuration, set the following environment variables:
 
 -   `RABBITMQ_CONNECTION_STRING`
 -   `PORT`
-Make sure to give correct connection string and port
-Ensure both RabbitMQ and the order-service are already connected and running (locally or on Azure).
+  
+1. Make sure to give correct connection string and port
+2. Ensure both RabbitMQ and the order-service are already connected and running (locally or on Azure).
 
 ### 3. CI/CD Pipeline with GitHub Actions
 
