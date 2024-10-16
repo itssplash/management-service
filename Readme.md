@@ -37,7 +37,7 @@ RABBITMQ_CONNECTION_STRING=amqp://newuser:newpassword@localhost:5672/
 # Port for the management-service to listen on
 PORT=4000
 ```
-
+If you are running the RabbitMQ locally , the above connection string is good to go! In case you are using the Azure Hosted RabbitMQ , use the public IP of your VM inplace of localhost
 ### 5. Running the Service Locally
 
 To start the management-service locally, use the following command:
