@@ -19,7 +19,7 @@ The **management-service** is a Node.js application that retrieves order message
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/management-service.git
+git clone [https://github.com/your-username/management-service.git](https://github.com/itssplash/management-service.git)
 cd management-service
 ```
 
