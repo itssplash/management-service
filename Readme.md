@@ -1,4 +1,3 @@
-# Management-Service
 
 The **management-service** is a Node.js application that retrieves order messages from RabbitMQ and exposes a REST API for the store-admin web app to view orders. The service is integrated with RabbitMQ, and it follows the first four principles of the 12-Factor App methodology.
 
@@ -87,8 +86,15 @@ Testing the Service
 You can test the service by:
 
 1.  Sending orders from the order-service to RabbitMQ (either locally or on Azure).
+  ![Sending Order from Order service to RabbitMQ](https://github.com/user-attachments/assets/51758452-41a3-458f-8a64-ad0fcc55fb5b)
+
 2.  Verifying that the orders are received and displayed by the management-service.
+   ![ManagementService Hosted on Azure](https://github.com/user-attachments/assets/e595b494-0dd9-4dc3-837c-c9d47ed6cf0a)
+
 3.  Using the `.http` file to check the API responses.
+   ![http get orders - management service](https://github.com/user-attachments/assets/4d7a48ea-ddf9-4ed6-b4de-991f9c3af6a5)
+
+
 
 Compliance with 12-Factor App
 -----------------------------
