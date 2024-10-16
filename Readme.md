@@ -1,3 +1,4 @@
+# Management Service
 
 The **management-service** is a Node.js application that retrieves order messages from RabbitMQ and exposes a REST API for the store-admin web app to view orders. The service is integrated with RabbitMQ, and it follows the first four principles of the 12-Factor App methodology.
 
